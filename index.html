@@ -4,67 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>smooth scroll</title>
+    <title>Hello</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
 </head>
 <body>
+  
+
     <div class="container">
-        
-        
+
         <nav class="navbar">
-            
+         
+            <div class="hamburger-menu">
            
-            <ul>
+                <div class="line  line-1 "></div>
+                <div class="line  line-2 "></div>
+                <div class="line  line-3 "></div>
+                
+
+            </div>
+       
+           <div class="menu-items">
+         <ul class="nav-list">
+            <li class="nav-item">
+                <a href="#" class='nav-link'>About us</a>
+            </li>
+        <li class="nav-item">
+            <a href="#" class='nav-link'>Explore</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class='nav-link'>plans</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class='nav-link'>membership</a>
+        </li>
+    </ul>
+    </div>
+           
+            <ul class="nav-head">
                 <li> <a href="#home">Home</a></li>
                 <li> <a href="#about">About</a></li>
                 <li> <a href="#blog">Blog</a></li>
                 <li> <a href="#social">Socials</a></li>
             </ul>
-          
-            <div class="container2" onclick="this.classList.toggle('active')">
-                <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 200 200">
-                      <g stroke-width="6.5" stroke-linecap="round">
-                        <path
-                          d="M72 82.286h28.75"
-                          fill="#009100"
-                          fill-rule="evenodd"
-                          stroke="#fff"
-                        />
-                        <path
-                          d="M100.75 103.714l72.482-.143c.043 39.398-32.284 71.434-72.16 71.434-39.878 0-72.204-32.036-72.204-71.554"
-                          fill="none"
-                          stroke="#fff"
-                        />
-                        <path
-                          d="M72 125.143h28.75"
-                          fill="#009100"
-                          fill-rule="evenodd"
-                          stroke="#fff"
-                        />
-                        <path
-                          d="M100.75 103.714l-71.908-.143c.026-39.638 32.352-71.674 72.23-71.674 39.876 0 72.203 32.036 72.203 71.554"
-                          fill="none"
-                          stroke="#fff"
-                        />
-                        <path
-                          d="M100.75 82.286h28.75"
-                          fill="#009100"
-                          fill-rule="evenodd"
-                          stroke="#fff"
-                        />
-                        <path
-                          d="M100.75 125.143h28.75"
-                          fill="#009100"
-                          fill-rule="evenodd"
-                          stroke="#fff"
-                        />
-                      </g>
-                    </svg>
-              </div>
         </nav>
         <section id="home">
             <h1>welcome to my site</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium magnam ducimus laborum ipsam ratione a inventore labore quaerat in voluptatum?</p>
+           
         </section>
         <section id="about">
             <h1>this is about smooth scrolling</h1>
@@ -79,7 +66,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium magnam ducimus laborum ipsam ratione a inventore labore quaerat in voluptatum?</p>
         </section>
     </div>
-    
+    <script src="app.js"></script>
 </body>
-<script src="app.js"></script>
+
 </html>
