@@ -153,18 +153,18 @@ section#social{
     height: 3px;
     background-color: white;
    border-radius: 40px;
-    
+    transition: 0.3s ease-in-out;
 }
-/* .line-1 {
+.open .line-1 {
     transform: rotateZ(-45deg) translate(-8px , 6px);
 }
- .line-2 {
+.open .line-2 {
 opacity: 0;
 }
- .line-3 {
-    transform: rotateZ(45deg) translate(-8px , -6px);
+.open .line-3 {
+    transform: rotateZ(405deg) translate(-8px , -6px);
 }
-*/
+
 
 
 .menu-items{
